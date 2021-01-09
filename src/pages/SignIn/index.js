@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
 import {withRouter} from 'react-router-dom';
 import {compose} from 'recompose';
-
-// import { SignUpLink } from '../SignUp';
 // import { PasswordForgetLink } from '../PasswordForget';
 import * as ROUTES from '../../constants/routes';
 import {withFirebase} from "../../components/Firebase";
+import {SignUpLink} from '../SignUp';
 
 const SignInPage = () => (
     <div>
@@ -15,7 +14,7 @@ const SignInPage = () => (
         <SignInFacebook/>
         <SignInTwitter/>
         {/*<PasswordForgetLink />*/}
-        {/*<SignUpLink />*/}
+        <SignUpLink />
     </div>
 );
 
