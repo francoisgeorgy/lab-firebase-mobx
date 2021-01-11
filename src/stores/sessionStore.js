@@ -6,6 +6,9 @@ class SessionStore {
     authUser = null;
 
     constructor(rootStore) {
+
+        console.log("sessionStore.constructor");
+
         makeAutoObservable(this, {
             rootStore: false,
             setAuthUser: action

@@ -6,6 +6,9 @@ class UserStore {
     users = null;
 
     constructor(rootStore) {
+
+        console.log("UserStore.constructor");
+
         makeAutoObservable(this, {
             rootStore: false,
             setUsers: action,

@@ -6,6 +6,9 @@ class FirebaseStore {
     firebase = null;
 
     constructor(rootStore) {
+
+        console.log("FirebaseStore.constructor");
+
         makeAutoObservable(this, {
             rootStore: false,
             setFirebase: action
