@@ -10,3 +10,4 @@ The page loads :
 2. Set the app store (mobx)
 3. Render the app
 
+another test
