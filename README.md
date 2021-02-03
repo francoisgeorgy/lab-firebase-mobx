@@ -5,3 +5,4 @@ Just a test
 Foo test
 Foo test 2
 dev
+dev 2
