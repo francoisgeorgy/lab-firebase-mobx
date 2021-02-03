@@ -6,3 +6,4 @@ Foo test
 Foo test 2
 bar
 bar 2
+bar 3
